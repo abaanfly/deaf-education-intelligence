@@ -1,0 +1,166 @@
+{
+  "brand": {
+    "name": "DEIS (Deaf Education Intelligence System)",
+    "personality": "Empowering, Clear, Intelligent, Warm",
+    "theme": "dark",
+    "archetype": "Archetype 5 (Jewel & Luxury) modified for Warm Inclusivity"
+  },
+  "typography": {
+    "font_stack": {
+      "heading": "Outfit, sans-serif",
+      "body": "Manrope, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "rules": {
+      "h1": "text-4xl sm:text-5xl tracking-tight font-semibold text-white",
+      "h2": "text-2xl sm:text-3xl tracking-tight font-medium text-white",
+      "h3": "text-xl font-medium text-zinc-100",
+      "card_title": "text-lg font-medium text-zinc-100 flex items-center gap-2",
+      "body": "text-base text-zinc-400 leading-relaxed",
+      "small_label": "text-xs tracking-[0.15em] uppercase text-zinc-500 font-bold",
+      "stats": "font-mono text-3xl sm:text-4xl font-light tracking-tighter text-white"
+    }
+  },
+  "colors": {
+    "backgrounds": {
+      "page": "#08080C",
+      "card": "#12121A",
+      "card_hover": "#1A1A24",
+      "input": "#0E0E14"
+    },
+    "borders": {
+      "subtle": "rgba(255, 255, 255, 0.08)",
+      "strong": "rgba(255, 255, 255, 0.15)",
+      "primary": "#FF7A59"
+    },
+    "text": {
+      "primary": "#FAFAFA",
+      "secondary": "#A1A1AA",
+      "muted": "#71717A",
+      "accent": "#FF7A59"
+    },
+    "brand": {
+      "primary": "#FF7A59",
+      "primary_hover": "#F97316",
+      "secondary": "#38BDF8",
+      "secondary_hover": "#0EA5E9"
+    },
+    "semantic": {
+      "success": "#34D399",
+      "warning": "#FBBF24",
+      "danger": "#F87171",
+      "risk_high": "#EF4444",
+      "risk_medium": "#F97316"
+    },
+    "charts": [
+      "#38BDF8",
+      "#FF7A59",
+      "#34D399",
+      "#818CF8",
+      "#F472B6"
+    ]
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous Spacing (p-6, p-8) to reduce cognitive load. The 'Control Room' grid for dashboards.",
+    "dashboard_grid": "grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+    "card_padding": "p-6 lg:p-8",
+    "section_spacing": "py-12 lg:py-20",
+    "alignment": "Strictly left-aligned text within cards for readability. Optical alignment for icons."
+  },
+  "surfaces": {
+    "dashboard_card": {
+      "background": "bg-[#12121A]",
+      "border": "border border-white/10",
+      "radius": "rounded-2xl",
+      "shadow": "shadow-none",
+      "inner_glow": "shadow-[inset_0_1px_0_0_rgba(255,255,255,0.05)]",
+      "hover": "hover:bg-[#1A1A24] transition-colors duration-300"
+    },
+    "glass_panel": {
+      "background": "bg-[#08080C]/70",
+      "blur": "backdrop-blur-xl backdrop-saturate-150",
+      "border": "border border-white/10",
+      "usage": "Sticky headers, AI Tutor floating panel"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#FF7A59] text-white hover:bg-[#F97316] font-medium rounded-xl px-6 py-3 transition-all active:scale-[0.98]",
+      "secondary": "bg-white/5 text-white border border-white/10 hover:bg-white/10 font-medium rounded-xl px-6 py-3 transition-all",
+      "ghost": "text-zinc-400 hover:text-white hover:bg-white/5 font-medium rounded-xl px-4 py-2"
+    },
+    "badges": {
+      "risk_high": "bg-red-500/10 text-red-400 border border-red-500/20 px-2.5 py-0.5 rounded-full text-xs font-medium",
+      "risk_low": "bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2.5 py-0.5 rounded-full text-xs font-medium"
+    },
+    "shadcn_overrides": {
+      "card": "Remove default shadow, use E1 dashboard_card styles",
+      "tabs": "Pill-shaped list (bg-white/5 p-1 rounded-xl), triggers with rounded-lg text-zinc-400 data-[state=active]:bg-[#12121A] data-[state=active]:text-white",
+      "input": "bg-[#0E0E14] border-white/10 focus-visible:ring-[#FF7A59] text-white placeholder:text-zinc-600 rounded-xl h-12"
+    }
+  },
+  "accessibility_and_visuals": {
+    "visual_first": "CRITICAL: Every text label must have a corresponding Lucide icon (e.g., 'Weak Topics' + AlertTriangle). Deaf students benefit from strong visual anchors.",
+    "testing": "All interactive elements, buttons, inputs, and cards MUST have a 'data-testid' attribute (e.g., data-testid='login-student-btn').",
+    "contrast": "Ensure all text meets APCA guidelines against #12121A. Never use pure gray, always tint with zinc (blue-ish).",
+    "motion": "Respect prefers-reduced-motion. Animations should be fluid but quick (duration 200-300ms) to avoid feeling sluggish.",
+    "icons_library": "lucide-react"
+  },
+  "pages": {
+    "role_switcher_landing": {
+      "layout": "Split screen or centered bento grid",
+      "background": "Use global_gradient_bg covered by a very subtle noise texture.",
+      "cards": "Two massive cards (Student vs Teacher) with hover scaling."
+    },
+    "student_dashboard": {
+      "layout": "Bento Grid (Control Room Mode). 12-col base.",
+      "hero_card": "Col-span-full md:col-span-8. Contains greeting, overall score, and progress timeline.",
+      "weak_topics": "Col-span-full md:col-span-4. High tension, high contrast warning colors.",
+      "ai_recommendations": "List view with thumbnail placeholders for 'Visual Content'."
+    },
+    "teacher_dashboard": {
+      "layout": "Dense data view. 4-col base grid.",
+      "kpi_row": "4 summary cards (Class Avg, At Risk, Topics Covered, Engagement).",
+      "heatmap": "Col-span-2 or 3. Use Recharts for difficulty heatmap.",
+      "risk_alerts": "Col-span-1. Vertical feed of students needing immediate attention."
+    }
+  },
+  "media_and_assets": {
+    "hero_background": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/ab842376-87d2-4156-8a49-01164cd4e7c3/images/3315cc7378addf76183a57c9de1d9530021c2f3cf6ef4fdea3bdd8623351f7fb.png",
+      "description": "3D abstract composition of floating glowing frosted glass shapes. Use for landing page hero or authentication screen."
+    },
+    "global_gradient_bg": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/ab842376-87d2-4156-8a49-01164cd4e7c3/images/19909280d855c60afc4d9a5ea91e988a05da4368b5e3c3166e556061ad9eebb6.png",
+      "description": "Abstract soft gradient. Use as a fixed background for the app with 20-30% opacity to break the pure black void."
+    },
+    "ai_tutor_avatar": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/ab842376-87d2-4156-8a49-01164cd4e7c3/images/b096dd344a38cc5e7e1c70b046f9f4e74adff6b9610ebf1c42d7b951b2b165c2.png",
+      "description": "Minimalist 3D AI core icon. Use in the AI Chat/Tutor panel as the bot's avatar."
+    },
+    "student_avatars": [
+      {
+        "url": "https://images.unsplash.com/photo-1721468184185-214871ec4411?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHw0fHxkaXZlcnNlJTIwc3R1ZGVudCUyMHN0dWR5aW5nJTIwcG9ydHJhaXQlMjBkYXJrfGVufDB8fHx8MTc3NjY5NzQ4MXww&ixlib=rb-4.1.0&q=85",
+        "description": "Student avatar 1"
+      },
+      {
+        "url": "https://images.pexels.com/photos/6684506/pexels-photo-6684506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Student avatar 2"
+      }
+    ],
+    "teacher_avatar": {
+      "url": "https://images.pexels.com/photos/6914647/pexels-photo-6914647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Teacher profile avatar"
+    }
+  },
+  "instructions_to_main_agent": [
+    "FILES FORMAT: Create ONLY `.js` or `.jsx` files. DO NOT output `.tsx` or `.ts` files as the environment uses JavaScript.",
+    "COMPONENT STRUCTURE: Use purely HTML/Tailwind for structural bento-grid layouts. Use customized Shadcn for interactive components (Cards, Tabs, Tables).",
+    "DARK MODE ONLY: Hardcode dark mode classes or force `dark` on the HTML tag. The user explicitly requested a dark theme.",
+    "DATA ATTRIBUTES: Every single clickable element, form input, and significant data display card must have a `data-testid` attribute. E.g. <button data-testid='submit-quiz-btn'>",
+    "NO PLACEHOLDERS: Use the image URLs provided in `media_and_assets`. Do not use dummyimage.com or via.placeholder.com.",
+    "VISUAL ACCESSIBILITY: Because DEIS is for Deaf/Hard-of-Hearing students, text should be supported by icons (`lucide-react`). Use high-contrast text and clear layout hierarchies.",
+    "CHARTS: Use Recharts with the specific color palette provided in `colors.charts`.",
+    "FONTS: Import and use 'Outfit' for headings and 'Manrope' for body text via Google Fonts. Do NOT use Inter or Roboto."
+  ]
+}

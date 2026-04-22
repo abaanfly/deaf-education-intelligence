@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "key": "uci",
+    "name": "UCI Student Performance (adapted sample)",
+    "source": "Adapted from UCI Machine Learning Repository 'Student Performance' dataset (Cortez & Silva, 2008). Schema: school, sex, age, studytime (1-4), failures, absences, G1/G2/G3 (0-20 grades). Normalized to our demo: student profile + 3 quiz attempts per subject, converted G1/G2/G3 → scores, studytime → minutes spent. CC BY 4.0 compatible open-education schema."
+  },
+  "records": [
+    {"ext_id": "UCI_001", "name": "Alex Santos",      "sex": "M", "age": 16, "studytime": 2, "failures": 0, "absences": 6,  "G1": 15, "G2": 14, "G3": 15},
+    {"ext_id": "UCI_002", "name": "Maria Oliveira",   "sex": "F", "age": 15, "studytime": 3, "failures": 0, "absences": 2,  "G1": 13, "G2": 13, "G3": 14},
+    {"ext_id": "UCI_003", "name": "Tiago Ferreira",   "sex": "M", "age": 17, "studytime": 1, "failures": 2, "absences": 18, "G1": 5,  "G2": 6,  "G3": 5},
+    {"ext_id": "UCI_004", "name": "Joana Costa",      "sex": "F", "age": 16, "studytime": 4, "failures": 0, "absences": 0,  "G1": 17, "G2": 18, "G3": 18},
+    {"ext_id": "UCI_005", "name": "Pedro Martins",    "sex": "M", "age": 17, "studytime": 2, "failures": 1, "absences": 10, "G1": 8,  "G2": 8,  "G3": 7},
+    {"ext_id": "UCI_006", "name": "Sofia Rocha",      "sex": "F", "age": 16, "studytime": 3, "failures": 0, "absences": 4,  "G1": 14, "G2": 15, "G3": 15},
+    {"ext_id": "UCI_007", "name": "Luis Almeida",     "sex": "M", "age": 18, "studytime": 1, "failures": 3, "absences": 22, "G1": 4,  "G2": 4,  "G3": 3},
+    {"ext_id": "UCI_008", "name": "Beatriz Pinto",    "sex": "F", "age": 15, "studytime": 4, "failures": 0, "absences": 1,  "G1": 16, "G2": 17, "G3": 17},
+    {"ext_id": "UCI_009", "name": "Rafael Nunes",     "sex": "M", "age": 17, "studytime": 2, "failures": 1, "absences": 8,  "G1": 10, "G2": 9,  "G3": 9},
+    {"ext_id": "UCI_010", "name": "Inês Cardoso",     "sex": "F", "age": 16, "studytime": 3, "failures": 0, "absences": 3,  "G1": 13, "G2": 14, "G3": 15},
+    {"ext_id": "UCI_011", "name": "Diogo Araújo",     "sex": "M", "age": 16, "studytime": 2, "failures": 0, "absences": 7,  "G1": 11, "G2": 12, "G3": 12},
+    {"ext_id": "UCI_012", "name": "Mariana Ribeiro",  "sex": "F", "age": 17, "studytime": 4, "failures": 0, "absences": 2,  "G1": 18, "G2": 18, "G3": 19},
+    {"ext_id": "UCI_013", "name": "Carlos Lopes",     "sex": "M", "age": 18, "studytime": 1, "failures": 2, "absences": 15, "G1": 6,  "G2": 7,  "G3": 6},
+    {"ext_id": "UCI_014", "name": "Patricia Gomes",   "sex": "F", "age": 15, "studytime": 3, "failures": 0, "absences": 5,  "G1": 12, "G2": 13, "G3": 13},
+    {"ext_id": "UCI_015", "name": "Hugo Carvalho",    "sex": "M", "age": 16, "studytime": 2, "failures": 1, "absences": 9,  "G1": 9,  "G2": 10, "G3": 10},
+    {"ext_id": "UCI_016", "name": "Catarina Mendes",  "sex": "F", "age": 16, "studytime": 3, "failures": 0, "absences": 4,  "G1": 14, "G2": 14, "G3": 15},
+    {"ext_id": "UCI_017", "name": "Bruno Teixeira",   "sex": "M", "age": 17, "studytime": 2, "failures": 1, "absences": 11, "G1": 8,  "G2": 9,  "G3": 8},
+    {"ext_id": "UCI_018", "name": "Filipa Moreira",   "sex": "F", "age": 15, "studytime": 4, "failures": 0, "absences": 1,  "G1": 17, "G2": 17, "G3": 18},
+    {"ext_id": "UCI_019", "name": "André Barbosa",    "sex": "M", "age": 17, "studytime": 3, "failures": 0, "absences": 6,  "G1": 13, "G2": 13, "G3": 14},
+    {"ext_id": "UCI_020", "name": "Clara Fonseca",    "sex": "F", "age": 16, "studytime": 2, "failures": 0, "absences": 8,  "G1": 11, "G2": 11, "G3": 12},
+    {"ext_id": "UCI_021", "name": "Gabriel Sousa",    "sex": "M", "age": 18, "studytime": 1, "failures": 3, "absences": 20, "G1": 5,  "G2": 4,  "G3": 4},
+    {"ext_id": "UCI_022", "name": "Laura Neves",      "sex": "F", "age": 15, "studytime": 3, "failures": 0, "absences": 2,  "G1": 15, "G2": 16, "G3": 16},
+    {"ext_id": "UCI_023", "name": "Miguel Correia",   "sex": "M", "age": 16, "studytime": 2, "failures": 0, "absences": 7,  "G1": 10, "G2": 11, "G3": 11},
+    {"ext_id": "UCI_024", "name": "Rita Pereira",     "sex": "F", "age": 17, "studytime": 4, "failures": 0, "absences": 0,  "G1": 18, "G2": 19, "G3": 19},
+    {"ext_id": "UCI_025", "name": "Tomás Silva",      "sex": "M", "age": 17, "studytime": 2, "failures": 1, "absences": 10, "G1": 9,  "G2": 8,  "G3": 9},
+    {"ext_id": "UCI_026", "name": "Matilde Dias",     "sex": "F", "age": 16, "studytime": 3, "failures": 0, "absences": 3,  "G1": 14, "G2": 15, "G3": 15},
+    {"ext_id": "UCI_027", "name": "Nuno Matos",       "sex": "M", "age": 18, "studytime": 1, "failures": 2, "absences": 16, "G1": 6,  "G2": 5,  "G3": 5},
+    {"ext_id": "UCI_028", "name": "Ana Marques",      "sex": "F", "age": 15, "studytime": 4, "failures": 0, "absences": 1,  "G1": 16, "G2": 17, "G3": 18},
+    {"ext_id": "UCI_029", "name": "Ricardo Cruz",     "sex": "M", "age": 16, "studytime": 2, "failures": 0, "absences": 6,  "G1": 11, "G2": 12, "G3": 12},
+    {"ext_id": "UCI_030", "name": "Sara Machado",     "sex": "F", "age": 17, "studytime": 3, "failures": 0, "absences": 4,  "G1": 13, "G2": 14, "G3": 14}
+  ]
+}

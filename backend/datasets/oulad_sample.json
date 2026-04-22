@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "key": "oulad",
+    "name": "Open University Learning Analytics (OULAD) sample",
+    "source": "Adapted from the Open University Learning Analytics Dataset (Kuzilek, Hlosta & Zdrahal, 2017) — CC BY 4.0. Sample preserves the schema: id_student, code_module, gender, age_band, studied_credits, num_of_prev_attempts, final_result (Pass/Fail/Withdrawn/Distinction), sum_click. Transformed into DEIS student + per-subject attempts."
+  },
+  "records": [
+    {"id_student": 11391, "code_module": "AAA", "gender": "M", "age_band": "35-55",  "studied_credits": 240, "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 934},
+    {"id_student": 28400, "code_module": "AAA", "gender": "F", "age_band": "0-35",   "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 1435},
+    {"id_student": 30268, "code_module": "BBB", "gender": "F", "age_band": "35-55",  "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Withdrawn",   "sum_click": 231},
+    {"id_student": 31604, "code_module": "BBB", "gender": "M", "age_band": "0-35",   "studied_credits": 120, "num_of_prev_attempts": 1, "final_result": "Fail",        "sum_click": 412},
+    {"id_student": 32885, "code_module": "CCC", "gender": "F", "age_band": "0-35",   "studied_credits": 90,  "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 1250},
+    {"id_student": 38053, "code_module": "CCC", "gender": "M", "age_band": "35-55",  "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Distinction", "sum_click": 2180},
+    {"id_student": 45642, "code_module": "DDD", "gender": "F", "age_band": "0-35",   "studied_credits": 120, "num_of_prev_attempts": 2, "final_result": "Fail",        "sum_click": 305},
+    {"id_student": 50578, "code_module": "DDD", "gender": "M", "age_band": "0-35",   "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 1020},
+    {"id_student": 53025, "code_module": "EEE", "gender": "F", "age_band": "35-55",  "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Distinction", "sum_click": 1890},
+    {"id_student": 57506, "code_module": "EEE", "gender": "M", "age_band": "0-35",   "studied_credits": 120, "num_of_prev_attempts": 1, "final_result": "Withdrawn",   "sum_click": 180},
+    {"id_student": 58310, "code_module": "FFF", "gender": "F", "age_band": "0-35",   "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 1115},
+    {"id_student": 62155, "code_module": "FFF", "gender": "M", "age_band": "55<=",   "studied_credits": 30,  "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 745},
+    {"id_student": 68195, "code_module": "GGG", "gender": "F", "age_band": "0-35",   "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Fail",        "sum_click": 488},
+    {"id_student": 71362, "code_module": "GGG", "gender": "M", "age_band": "35-55",  "studied_credits": 120, "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 1330},
+    {"id_student": 73441, "code_module": "AAA", "gender": "F", "age_band": "0-35",   "studied_credits": 90,  "num_of_prev_attempts": 1, "final_result": "Fail",        "sum_click": 394},
+    {"id_student": 74372, "code_module": "BBB", "gender": "M", "age_band": "0-35",   "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Distinction", "sum_click": 2045},
+    {"id_student": 77612, "code_module": "CCC", "gender": "F", "age_band": "35-55",  "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 1172},
+    {"id_student": 80127, "code_module": "DDD", "gender": "M", "age_band": "0-35",   "studied_credits": 120, "num_of_prev_attempts": 2, "final_result": "Withdrawn",   "sum_click": 142},
+    {"id_student": 83504, "code_module": "EEE", "gender": "F", "age_band": "0-35",   "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 982},
+    {"id_student": 88621, "code_module": "FFF", "gender": "M", "age_band": "35-55",  "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 1095},
+    {"id_student": 91025, "code_module": "GGG", "gender": "F", "age_band": "0-35",   "studied_credits": 90,  "num_of_prev_attempts": 0, "final_result": "Distinction", "sum_click": 1985},
+    {"id_student": 94413, "code_module": "AAA", "gender": "M", "age_band": "0-35",   "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Fail",        "sum_click": 438},
+    {"id_student": 97158, "code_module": "BBB", "gender": "F", "age_band": "0-35",   "studied_credits": 60,  "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 860},
+    {"id_student": 98742, "code_module": "CCC", "gender": "M", "age_band": "55<=",   "studied_credits": 30,  "num_of_prev_attempts": 0, "final_result": "Pass",        "sum_click": 652},
+    {"id_student": 99501, "code_module": "DDD", "gender": "F", "age_band": "0-35",   "studied_credits": 120, "num_of_prev_attempts": 1, "final_result": "Fail",        "sum_click": 287}
+  ]
+}

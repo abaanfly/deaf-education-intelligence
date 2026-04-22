@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "key": "kaggle_xapi",
+    "name": "Kaggle xAPI-Edu Students' Academic Performance",
+    "source": "Adapted from Amrieh, Hamtini & Aljarah (2016) 'Students' Academic Performance' dataset published on Kaggle and UCI (Open / educational use). Sample preserves the schema: gender, Topic, SectionID, raisedhands, VisITedResources, AnnouncementsView, Discussion, StudentAbsenceDays, Class (L/M/H)."
+  },
+  "records": [
+    {"ext_id": "XAPI_001", "name": "Layla Alhassan",   "gender": "F", "Topic": "Math",    "SectionID": "A", "raisedhands": 50, "VisITedResources": 68, "AnnouncementsView": 40, "Discussion": 32, "StudentAbsenceDays": "Under-7", "Class": "M"},
+    {"ext_id": "XAPI_002", "name": "Omar Salah",       "gender": "M", "Topic": "Math",    "SectionID": "A", "raisedhands": 12, "VisITedResources": 20, "AnnouncementsView": 8,  "Discussion": 10, "StudentAbsenceDays": "Above-7", "Class": "L"},
+    {"ext_id": "XAPI_003", "name": "Fatima Noor",      "gender": "F", "Topic": "Science", "SectionID": "B", "raisedhands": 85, "VisITedResources": 90, "AnnouncementsView": 75, "Discussion": 80, "StudentAbsenceDays": "Under-7", "Class": "H"},
+    {"ext_id": "XAPI_004", "name": "Khalid Ibrahim",   "gender": "M", "Topic": "Science", "SectionID": "A", "raisedhands": 60, "VisITedResources": 55, "AnnouncementsView": 45, "Discussion": 50, "StudentAbsenceDays": "Under-7", "Class": "M"},
+    {"ext_id": "XAPI_005", "name": "Aisha Rahman",     "gender": "F", "Topic": "English", "SectionID": "C", "raisedhands": 18, "VisITedResources": 25, "AnnouncementsView": 12, "Discussion": 8,  "StudentAbsenceDays": "Above-7", "Class": "L"},
+    {"ext_id": "XAPI_006", "name": "Yusuf Haidar",     "gender": "M", "Topic": "English", "SectionID": "B", "raisedhands": 70, "VisITedResources": 80, "AnnouncementsView": 60, "Discussion": 65, "StudentAbsenceDays": "Under-7", "Class": "H"},
+    {"ext_id": "XAPI_007", "name": "Maya Qasim",       "gender": "F", "Topic": "History", "SectionID": "A", "raisedhands": 40, "VisITedResources": 45, "AnnouncementsView": 35, "Discussion": 28, "StudentAbsenceDays": "Under-7", "Class": "M"},
+    {"ext_id": "XAPI_008", "name": "Ahmad Farouk",     "gender": "M", "Topic": "History", "SectionID": "C", "raisedhands": 10, "VisITedResources": 15, "AnnouncementsView": 5,  "Discussion": 6,  "StudentAbsenceDays": "Above-7", "Class": "L"},
+    {"ext_id": "XAPI_009", "name": "Nadia Haddad",     "gender": "F", "Topic": "IT",      "SectionID": "B", "raisedhands": 88, "VisITedResources": 92, "AnnouncementsView": 80, "Discussion": 85, "StudentAbsenceDays": "Under-7", "Class": "H"},
+    {"ext_id": "XAPI_010", "name": "Hassan Nabil",     "gender": "M", "Topic": "IT",      "SectionID": "A", "raisedhands": 55, "VisITedResources": 50, "AnnouncementsView": 40, "Discussion": 45, "StudentAbsenceDays": "Under-7", "Class": "M"},
+    {"ext_id": "XAPI_011", "name": "Zara Latif",       "gender": "F", "Topic": "Math",    "SectionID": "B", "raisedhands": 75, "VisITedResources": 82, "AnnouncementsView": 65, "Discussion": 70, "StudentAbsenceDays": "Under-7", "Class": "H"},
+    {"ext_id": "XAPI_012", "name": "Ibrahim Shah",     "gender": "M", "Topic": "Math",    "SectionID": "C", "raisedhands": 22, "VisITedResources": 30, "AnnouncementsView": 15, "Discussion": 18, "StudentAbsenceDays": "Above-7", "Class": "L"},
+    {"ext_id": "XAPI_013", "name": "Salma Kareem",     "gender": "F", "Topic": "Science", "SectionID": "A", "raisedhands": 42, "VisITedResources": 50, "AnnouncementsView": 35, "Discussion": 32, "StudentAbsenceDays": "Under-7", "Class": "M"},
+    {"ext_id": "XAPI_014", "name": "Bilal Nasser",     "gender": "M", "Topic": "English", "SectionID": "A", "raisedhands": 30, "VisITedResources": 38, "AnnouncementsView": 25, "Discussion": 20, "StudentAbsenceDays": "Under-7", "Class": "M"},
+    {"ext_id": "XAPI_015", "name": "Hala Jameel",      "gender": "F", "Topic": "History", "SectionID": "B", "raisedhands": 82, "VisITedResources": 88, "AnnouncementsView": 70, "Discussion": 75, "StudentAbsenceDays": "Under-7", "Class": "H"},
+    {"ext_id": "XAPI_016", "name": "Tariq Mustafa",    "gender": "M", "Topic": "IT",      "SectionID": "C", "raisedhands": 15, "VisITedResources": 18, "AnnouncementsView": 10, "Discussion": 12, "StudentAbsenceDays": "Above-7", "Class": "L"},
+    {"ext_id": "XAPI_017", "name": "Rania Saleh",      "gender": "F", "Topic": "Math",    "SectionID": "B", "raisedhands": 35, "VisITedResources": 40, "AnnouncementsView": 28, "Discussion": 30, "StudentAbsenceDays": "Under-7", "Class": "M"},
+    {"ext_id": "XAPI_018", "name": "Karim Zayed",      "gender": "M", "Topic": "Science", "SectionID": "B", "raisedhands": 65, "VisITedResources": 72, "AnnouncementsView": 55, "Discussion": 60, "StudentAbsenceDays": "Under-7", "Class": "H"},
+    {"ext_id": "XAPI_019", "name": "Dina Othman",      "gender": "F", "Topic": "English", "SectionID": "A", "raisedhands": 48, "VisITedResources": 55, "AnnouncementsView": 38, "Discussion": 40, "StudentAbsenceDays": "Under-7", "Class": "M"},
+    {"ext_id": "XAPI_020", "name": "Mahmoud Adel",     "gender": "M", "Topic": "History", "SectionID": "A", "raisedhands": 8,  "VisITedResources": 12, "AnnouncementsView": 4,  "Discussion": 5,  "StudentAbsenceDays": "Above-7", "Class": "L"},
+    {"ext_id": "XAPI_021", "name": "Lina Abbas",       "gender": "F", "Topic": "IT",      "SectionID": "B", "raisedhands": 78, "VisITedResources": 85, "AnnouncementsView": 68, "Discussion": 72, "StudentAbsenceDays": "Under-7", "Class": "H"},
+    {"ext_id": "XAPI_022", "name": "Rashid Khoury",    "gender": "M", "Topic": "Math",    "SectionID": "A", "raisedhands": 44, "VisITedResources": 48, "AnnouncementsView": 32, "Discussion": 35, "StudentAbsenceDays": "Under-7", "Class": "M"},
+    {"ext_id": "XAPI_023", "name": "Samira Younis",    "gender": "F", "Topic": "Science", "SectionID": "C", "raisedhands": 20, "VisITedResources": 28, "AnnouncementsView": 12, "Discussion": 15, "StudentAbsenceDays": "Above-7", "Class": "L"},
+    {"ext_id": "XAPI_024", "name": "Fadi Mikhail",     "gender": "M", "Topic": "English", "SectionID": "B", "raisedhands": 90, "VisITedResources": 95, "AnnouncementsView": 82, "Discussion": 88, "StudentAbsenceDays": "Under-7", "Class": "H"},
+    {"ext_id": "XAPI_025", "name": "Rania Fouad",      "gender": "F", "Topic": "History", "SectionID": "A", "raisedhands": 38, "VisITedResources": 42, "AnnouncementsView": 30, "Discussion": 32, "StudentAbsenceDays": "Under-7", "Class": "M"}
+  ]
+}
