@@ -126,7 +126,7 @@ deaf-education-intelligence/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/deaf-education-intelligence
+git clone https://github.com/abaanfly/deaf-education-intelligence
 cd deaf-education-intelligence
 ```
 
